@@ -3,6 +3,8 @@ body {
 	text-align: center;
 	font-color: #40514E;
 	font-family: 'Merriweather', serif;
+	/*background: url(../images/wood.jpg) repeat top left;*/
+	/*background-color: #feffdf;*/
 }
 
 h1 {
@@ -17,7 +19,7 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5rem;
 	font-weight: normal;
-	padding-bottom: 10px ;
+	/*padding-bottom: 10px ;*/
 }
 
 h3 {
@@ -53,25 +55,32 @@ a:hover {
 	color: #11999E;
 }
 
+.profile-table{
+	text-align:left;
+	width: 40%;
+	margin: 40px auto 40px auto;
+}
+
 .profile-pic {
-	border-radius: 100%;
+	border-radius: 20%;
 	height:300px;
+	margin-right: 30px;
 }
 
 .intro{
-	width: 30%;
-	margin: 0 auto;
+/*	width: 30%;
+	margin: 0 auto;*/
 }
 
 .top-container {
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
+    /*background-color: #E4F9F5;*/
+    /*position: relative;
+    padding-top: 100px;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 .middle-container {
-	margin: 100px 0 ;
+	margin: 50px 0 ;
 }
 
 .bottom-container {
@@ -79,44 +88,54 @@ a:hover {
 	padding: 50px 0 20px;
 }
 
-.pro {
-	text-decoration: underline;
-}
 
-
-.top-cloud {
+.top-description{
 	position: absolute;
-	right: 300px;
-	top: 40px;
+	font-size: 4em;
+	right: 100px;
+	top: 230px;
 }
 
-.bottom-cloud {
+.title-description{
 	position: absolute;
-	left: 250px;
-	bottom: 300px;
+	right: 100px;
+	top: 70px;
+	font-size: 8em;
 }
 
-.skill-row {
-	width: 50%;
-	margin: 50px auto 50px auto;
+.background-pic {
+	/*display: block;*/
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.skill-table{
+	width: 70%;
+	margin: 40px auto 40px auto;
 	text-align: left;
 }
 
-.coding-pic {
+.skill-table tbody{
+	margin: 0;
+}
+
+.skill-icons{
+	text-align: center;
+	margin-right: 40px;
+}
+
+.skill-pic {
 	width: 25%;
 	float: left;
 	margin-right: 30px;
 }
 
-.photo-pic {
-	width: 25%;
-	float: right;
-	margin-left: 30px;
+.skill-pic-in-table{
+	margin-bottom: 30px;
 }
 
-.contact-message{
-	width: 40%;
-	margin: 40px auto 60px;
+.check-it-out{
+	display: inline-block;
 }
 
 .butn {
@@ -150,3 +169,10 @@ a:hover {
 	color: #EAF6F6;
 	font-size: 0.75rem;
 }
+
+
+
+
+
+
+

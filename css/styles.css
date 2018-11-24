@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	text-align: center;
 	font-color: #40514E;
-	/*font-family: 'Merriweather', serif;*/
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 400;
 	background: url(../images/wood.jpg) repeat top left;
@@ -74,9 +73,6 @@ a:hover {
 }
 
 .top-container {
-    /*background-color: #E4F9F5;*/
-    /*position: relative;
-    padding-top: 100px;*/
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -111,19 +107,18 @@ a:hover {
 	position: absolute;
 	font-size: 4em;
 	right: 85px;
-	top: 210px;
+	top: 190px;
 }
 
 .title-description{
 	color: #535962;
 	position: absolute;
 	right: 60px;
-	top: 50px;
+	/*top: 10px;*/
 	font-size: 8em;
 }
 
 .background-pic {
-	/*display: block;*/
 	max-width: 100%;
 	max-height: 100%;
 }

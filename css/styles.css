@@ -123,17 +123,17 @@ a:hover {
 	max-height: 100%;
 }
 
-.skill-table{
+.content-table{
 	width: 80%;
 	margin: 40px auto 40px auto;
 	text-align: left;
 }
 
-.skill-table tbody{
+.content-table tbody{
 	margin: 0;
 }
 
-.skill-icons{
+.content-icons{
 	text-align: center;
 	margin-right: 40px;
 }

@@ -2,8 +2,14 @@
 
 .software-icon{
 	width: 100px;
+	margin: 0 20px;
 }
 
 .gear-icon{
-	width: 25%;
+	width: 100%;
+}
+
+.canon24mm-icon{
+	width: 40%;
+	margin-top: 20px;
 }
